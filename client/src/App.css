@@ -1,0 +1,191 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h3 {
+  font-size: 24px;
+  margin-top: 40px;
+  padding: 1rem;
+}
+
+.header {
+  padding: 1rem;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: center;
+}
+
+.header h2 {
+  font-weight: 500;
+  font-size: 36px;
+}
+
+.header button {
+  font-weight: bold;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  border: none;
+  background: white;
+  text-decoration: underline;
+}
+
+.home-wrapper {
+  padding: 20px;
+  justify-content: center;
+  margin: 0;
+  border: 1px solid green;
+}
+
+.table {
+  margin-top: 20px;
+  display: flex;
+  width: 80%;
+  height: auto;
+  flex-direction: column;
+  margin-left: 140px;
+  margin-right: 0;
+}
+
+.thead {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 1px black solid;
+  padding: 4px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.tbody {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 4px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border: 1px black solid;
+  gap: 1rem;
+}
+
+.tbody tr {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 4px;
+  background-color: cornsilk;
+}
+
+.tbody td {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: .4rem;
+}
+
+.tbody td button {
+  background: inherit;
+  border: none;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.tbody tr:nth-child(odd){
+  background-color: cornsilk;
+}
+
+.tbody tr:nth-child(even){
+  background-color: white;
+}
+
+.information {
+  margin: 20px;
+  display: flex;
+  padding: 50px;
+  flex-direction: row;
+  gap: 4rem;
+  border: 2px black solid;
+  width: 50%;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.left p {
+  font-weight: bold;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.header-details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.header-details button {
+  background: cornflowerblue;
+  padding: 4px;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.form {
+  padding: 20px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+  align-content: center;
+}
+
+.form button {
+  padding: 4px;
+  background: cornflowerblue;
+  color: white;
+}
+
+.form div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form p {
+  font-size: 12px;
+  color: red;
+}
+
+.form-wrapper h2 {
+  margin: 20px 20px;
+}
+
+.likes {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 4rem;
+}
+
+.likes button {
+  background: rgb(54, 87, 6);
+  color: white;
+  padding: 4px;
+}
